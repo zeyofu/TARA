@@ -2,7 +2,7 @@
 <p float="left">
 <img src="https://user-images.githubusercontent.com/31453585/153289234-12495801-6dbc-4660-b513-f18b1a16dc42.jpg" alt="new-york-protest-floyd" width="300">
 <img src="https://user-images.githubusercontent.com/31453585/153289545-0df21366-644b-488d-8835-1c69e8a5a0d4.jpg" alt="modi-board" width="300"/>
- Can you tell the time and location of the images?
+ Can you tell the time and location when the images were taken?
 </p>
  
 
@@ -13,6 +13,17 @@ In this repository, we provide the dateset for TARA, along with the pytorch impl
 
 
 ## Datasets ##
+Download [here](https://drive.google.com/drive/folders/1KNcEN3yvhki4XNIfg-t5mXlQZvS1h1XA?usp=sharing).
+
+<details>
+  <summary>Show example data in the Development Set.</summary>
+  
+  ### Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
 
 ## Pretrained and Finetuned CLIP Models ##
 
