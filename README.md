@@ -14,8 +14,8 @@ In this repository, we provide the dateset for TARA, along with the pytorch impl
 
 ## Datasets ##
 Download [here](https://drive.google.com/drive/folders/1KNcEN3yvhki4XNIfg-t5mXlQZvS1h1XA?usp=sharing).
-We provide the train, dev, and test set in the <i>input</i> folder. In addition, we provide an [html file](https://drive.google.com/file/d/1yVZtFZvtoCc8-3xxpPAsrvvapeaIKR_5/view?usp=sharing) to better demonstrate the dev data.
-
+We provide the train, dev, and test set in the <i>input</i> folder. In addition, we provide an [html file](https://drive.google.com/file/d/1yVZtFZvtoCc8-3xxpPAsrvvapeaIKR_5/view?usp=sharing) to better demonstrate the data.
+<!-- 
 <details>
   <summary>Show example data in the Development Set.</summary>
   
@@ -24,7 +24,7 @@ We provide the train, dev, and test set in the <i>input</i> folder. In addition,
   2. list
      * With some
      * Sub bullets
-</details>
+</details> -->
 
 ## Pretrained and Finetuned CLIP Models ##
 
