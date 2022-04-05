@@ -31,7 +31,7 @@ We provide the train, dev, and test set in the <i>input</i> folder. In addition,
 We used the model 'ViT-B/32' provided in the original [CLIP repo](https://github.com/openai/CLIP) in our experiments, and used their code to load and finetune. 
 Please make sure you satisfy all the requirements following the original [CLIP repo](https://github.com/openai/CLIP).
 
-Our fine-tuned models can be found [here](https://drive.google.com/drive/folders/1KNcEN3yvhki4XNIfg-t5mXlQZvS1h1XA?usp=sharing).
+Our fine-tuned models can be found [here](https://drive.google.com/drive/folders/1KNcEN3yvhki4XNIfg-t5mXlQZvS1h1XA?usp=sharing). The fine-tuning code are in ```time-reasoning```.
 
 To evaluate any CLIP-based model on our dataset, you can use the command
 ```
