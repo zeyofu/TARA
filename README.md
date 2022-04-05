@@ -9,7 +9,7 @@
 In this work, we identify and formulate this problem, spatio-temporal grounding of images, a task aiming at identifying the time and location the given image was taken. Specifically, we develop a novel dataset TARA, (Time and plAce for Reasoning beyond the imAge), a challenging and important dataset with 16k images with their associated news, time and location automatically extracted from New York Times (NYT), and an additional 61k examples as distant supervision from WIT. On top of the extractions, we present a crowdsourced subset in which images are believed to be feasible to find their spatio-temporal information for evaluation purpose. We show that there exists a  gap between a state-of-the-art joint model and human performance, which is slightly filled by our proposed model that uses segment-wise reasoning, motivating higher-level vision-language joint models that can conduct open-ended reasoning with world knowledge.
 
 
-In this repository, we provide the dateset for TARA, along with the pytorch implementation of the baseline variants models.
+In this repository, we provide the dateset for TARA, which is accepted to ACL 2022, along with the pytorch implementation of the baseline variants models.
 
 
 ## Datasets ##
