@@ -26,12 +26,22 @@ We provide the train, dev, and test set in the <i>input</i> folder. In addition,
      * Sub bullets
 </details> -->
 
-## Pretrained and Finetuned CLIP Models ##
+## Finetuned CLIP Models ##
 
-## Baseline Models ##
+We used the model 'ViT-B/32' provided in the original [CLIP repo](https://github.com/openai/CLIP) in our experiments, and used their code to load and finetune. 
+Please make sure you satisfy all the requirements following the original [CLIP repo](https://github.com/openai/CLIP).
 
-We used the model provided in the original [CLIP repo](https://github.com/openai/CLIP) in our experiments, and used their code to load and predict. Our fine-tuned models can be found [here](https://drive.google.com/drive/folders/1KNcEN3yvhki4XNIfg-t5mXlQZvS1h1XA?usp=sharing).
-To use the models, follow the original CLIP repo.
+Our fine-tuned models can be found [here](https://drive.google.com/drive/folders/1KNcEN3yvhki4XNIfg-t5mXlQZvS1h1XA?usp=sharing).
+
+To evaluate any CLIP-based model on our dataset, you can use the command
+```
+python eval.py --clip_model_name /YOUR_PATH_TO_SAVE_FINETUNED_CLIP_MODELS/finetune_segment_joint.pth --label_name gold_time_suggest
+```
+
+
+Please note that there are four kinds of labels: [gold_location,	gold_location_suggest; gold_time,	gold_time_suggest] in our dataset. In all our experiments, <b> we use gold_location_suggest and gold_time_suggest only</b>. 
+
+The only difference between gold_LABEL and gold_LABEL_suggest is the granularity. gold_LABEL_suggest is the adjusted gold_LABEL after MTurk annotation. For example, the gold_LABEL is the most precise label we got, e.g. 2017-5-23. Then, during our MTurk annotation process, our human annotators may find that they can only reason the time to a year but not a specific date, so in this case, the gold_LABEL_suggest will become 2017. 
 
 <!-- ## Requirements ## -->
 
