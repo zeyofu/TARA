@@ -47,3 +47,13 @@ The only difference between gold_LABEL and gold_LABEL_suggest is the granularity
 
 ## Citation ##
 
+```
+@inproceedings{FZCVR22,
+    author = {Xingyu Fu and Ben Zhou and Ishaan Preetam Chandratreya and Carl Vondrick and Dan Roth},
+    title = {{There’s a Time and Place for Reasoning Beyond the Image}},
+    booktitle = {Proc. of the Annual Meeting of the Association for Computational Linguistics (ACL)},
+    year = {2022},
+    url = "https://cogcomp.seas.upenn.edu/papers/paper-to-come.pdf",
+    funding = {KAIROS},
+}
+```
